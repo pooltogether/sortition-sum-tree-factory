@@ -5,11 +5,15 @@ jobs:
       - image: circleci/node:10.16.3
     steps:
       - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
       - node/with-cache:
           steps:
             - run: yarn
             - run: yarn test
-workflows:
-    build-and-test:
-      jobs:
-        - build-and-test
