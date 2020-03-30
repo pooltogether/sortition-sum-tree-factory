@@ -1,5 +1,7 @@
 # SortitionSumTreeFactory
 
+[![CircleCI](https://circleci.com/gh/pooltogether/sortition-sum-tree-factory.svg?style=svg)](https://circleci.com/gh/pooltogether/sortition-sum-tree-factory)
+
 This is a data structure that allows efficient O(log(n)) weighted selection.  This package is an extraction from the Kleros project.  
 
 For an explanation of the code see the [Medium article](https://medium.com/kleros/an-efficient-data-structure-for-blockchain-sortition-15d202af3247).
