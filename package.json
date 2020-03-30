@@ -1,0 +1,33 @@
+{
+  "name": "sortition-sum-tree-factory",
+  "version": "0.1.0",
+  "description": "SortitionSumTreeFactory extracted from the Kleros core smart contracts.",
+  "keywords": [
+    "blockchain",
+    "smart-contracts",
+    "ethereum"
+  ],
+  "repository": "https://github.com/pooltogether/sortition-sum-tree-factory",
+  "author": "Kleros",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "buidler test",
+    "compile": "buidler compile"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@nomiclabs/buidler": "^1.2.0",
+    "@nomiclabs/buidler-ethers": "^1.2.0",
+    "@nomiclabs/buidler-waffle": "^1.2.0",
+    "@types/chai": "^4.2.10",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.9.1",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^2.3.2",
+    "ethers": "^4.0.45",
+    "solc": "0.6.4",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
