@@ -2,11 +2,17 @@
 
 This is a data structure that allows efficient O(log(n)) weighted selection.  This package is an extraction from the Kleros project.  
 
-The majority of this code was written by [Enrique Piqueras](https://twitter.com/epiqueras1).  For an explanation of the code see the [Medium article](https://medium.com/kleros/an-efficient-data-structure-for-blockchain-sortition-15d202af3247).
-
-Thanks to the Kleros team for MIT licensing this *extremely useful* code.
+For an explanation of the code see the [Medium article](https://medium.com/kleros/an-efficient-data-structure-for-blockchain-sortition-15d202af3247).
 
 For more information on Sum Trees read [Introduction to Sum Tree](https://www.fcodelabs.com/2019/03/18/Sum-Tree-Introduction/)
+
+## Attribution
+
+The majority of this code was written by [Enrique Piqueras](https://twitter.com/epiqueras1).
+
+The data structure was designed by [Clément Lesaege](https://twitter.com/clesaege).
+
+Thanks to the Kleros team for MIT licensing this *extremely useful* code!
 
 # Setup
 
