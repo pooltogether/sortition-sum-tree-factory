@@ -6,6 +6,8 @@ The majority of this code was written by [Enrique Piqueras](https://twitter.com/
 
 Thanks to the Kleros team for MIT licensing this *extremely useful* code.
 
+For more information on Sum Trees read [Introduction to Sum Tree](https://www.fcodelabs.com/2019/03/18/Sum-Tree-Introduction/)
+
 # Setup
 
 To install use yarm or npm and install `sortition-sum-tree-factory`:
