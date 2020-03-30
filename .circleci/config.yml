@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build-and-test:
+  build:
     docker:
       - image: circleci/node:10.16.3
     steps:
